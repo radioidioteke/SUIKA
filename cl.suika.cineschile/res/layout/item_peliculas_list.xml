@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:background="@drawable/main_peliculas_background"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:gravity="center"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+    
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/dummie_peliculas_lista"
+        android:textColor="#000"
+        android:paddingRight="8dp"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:contentDescription="@null"
+        android:src="@drawable/arrow_right_blanca" />
+    
+    
+
+</LinearLayout>

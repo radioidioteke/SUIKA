@@ -1,0 +1,30 @@
+
+<resources>
+
+    <string name="app_name">cl.suika.cineschile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detalle_cine">DetalleCine</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_notificacion">Notificacion</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_terminos">TerminosActivity</string>
+    <string name="title_activity_validar_registro">ValidarRegistro</string>
+    <string name="dialog_download_loading">Cargando</string>
+    <string name="dummie_peliculas_lista">Lista peliculas ejemplo</string>
+    
+	<string name="perfil_formErr">Faltan campos por llenar</string>
+    <string name="perfil_passDiff">Las contraseñas no coinciden</string>
+    <string name="perfil_noPassAct">Debes ingresar tu contraseña actual</string>
+    <string name="perfil_shotPass">La contraseña debe tener al menos 5 caracteres</string>
+    <string name="perfil_okSave">Los campos se han guardado con exito</string>
+    
+    <string name="info_contacto">Envíanos tus comentarios:</string>
+    <string name="info_facebook">Visita nuestro fanpage:</string>
+    <string name="info_twitter">Visita nuestro Twitter:</string>
+       
+
+</resources>
