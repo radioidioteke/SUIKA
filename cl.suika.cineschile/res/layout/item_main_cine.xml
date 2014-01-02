@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:id="@+id/contenedorEstreno1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_noticia_background"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/nombreEsrteno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_main"
+            android:textColor="#A80000"
+            android:textSize="@dimen/main_new_item_diario_ts" />
+        
+        <cl.suika.chilediarios.utils.EllipsizingTextView
+            android:id="@+id/bajadaEstreno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:text="@string/dummie_pelicula_estreno"
+            android:textColor="#222222"
+            android:textSize="@dimen/main_new_item_bajada_ts" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#808080" />
+    
+    <LinearLayout
+        android:id="@+id/contenedorEstreno2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_noticia_background"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/nombreEsrteno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_main"
+            android:textColor="#A80000"
+            android:textSize="@dimen/main_new_item_diario_ts" />
+        
+        <cl.suika.chilediarios.utils.EllipsizingTextView
+            android:id="@+id/bajadaEstreno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:text="@string/dummie_pelicula_estreno"
+            android:textColor="#222222"
+            android:textSize="@dimen/main_new_item_bajada_ts" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#808080" />
+    
+    <LinearLayout
+        android:id="@+id/contenedorEstreno3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_noticia_background"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/nombreEsrteno3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_main"
+            android:textColor="#A80000"
+            android:textSize="@dimen/main_new_item_diario_ts" />
+        
+        <cl.suika.chilediarios.utils.EllipsizingTextView
+            android:id="@+id/bajadaEstreno3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:text="@string/dummie_pelicula_estreno"
+            android:textColor="#222222"
+            android:textSize="@dimen/main_new_item_bajada_ts" />
+    </LinearLayout>
+
+   
+    
+
+</LinearLayout>
