@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cines Chile</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="connect_error_content">No se ha logrado cargar el contenido, reintente refrescando o revise su conexión a internet</string>
+    <string name="title_activity_cine">Cine</string>
+
+</resources>

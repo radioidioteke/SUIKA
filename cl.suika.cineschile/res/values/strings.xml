@@ -25,6 +25,12 @@
     <string name="info_contacto">Envíanos tus comentarios:</string>
     <string name="info_facebook">Visita nuestro fanpage:</string>
     <string name="info_twitter">Visita nuestro Twitter:</string>
+    
+    <string name="title_main">Estrenos</string>
+    <string name="dummie_pelicula_estreno">Pelicula en estreno</string>
+    
+     <string name="connect_error_content">No se ha logrado cargar el contenido, reintente refrescando o revise su conexión a internet</string>
+    
        
 
 </resources>

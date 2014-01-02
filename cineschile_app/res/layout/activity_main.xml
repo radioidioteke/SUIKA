@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <ViewAnimator
+        android:id="@+id/viewAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_casi_oscuro" >
+
+        <RelativeLayout
+            android:id="@+id/splashContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextoEmptyContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#0000"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/connect_error_content"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/splashImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp"
+                android:src="@drawable/logo_cineschile" />
+        </RelativeLayout>
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo_oscuro"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/newsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ScrollView>
+
+            <ListView
+                android:id="@+id/left_drawer"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#e5e5e5"
+                android:choiceMode="singleChoice"
+                android:divider="#000"
+                android:dividerHeight="1px"
+                android:paddingTop="0dp" />
+        </android.support.v4.widget.DrawerLayout>
+    </ViewAnimator>
+
+    <LinearLayout
+        android:id="@+id/dummieAlign"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#FFF"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
