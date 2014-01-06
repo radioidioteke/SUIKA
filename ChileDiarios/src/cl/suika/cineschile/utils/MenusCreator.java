@@ -49,10 +49,10 @@ public class MenusCreator {
 	
 	public static void menuUtils(com.actionbarsherlock.view.Menu menu){
 		SubMenu subMenu = menu.addSubMenu(0, 0, 2, null);
-		subMenu.add(0, 3, 3, "Notificaciones").setIcon(R.drawable.boton_notificaciones).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
+		//subMenu.add(0, 3, 3, "Notificaciones").setIcon(R.drawable.boton_notificaciones).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
 		subMenu.add(0, 6, 6, "Perfil").setIcon(R.drawable.boton_perfil).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
-		subMenu.add(0, 7, 7, "Informaci�n").setIcon(R.drawable.info_icon).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
-		subMenu.add(0, 8, 8, "Cerrar Sesi�n").setIcon(R.drawable.boton_salir);
+		subMenu.add(0, 7, 7, "Información").setIcon(R.drawable.info_icon).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
+		subMenu.add(0, 8, 8, "Cerrar Sesión").setIcon(R.drawable.boton_salir);
 
 		MenuItem subMenuItem = subMenu.getItem();
 		subMenuItem.setIcon(R.drawable.abs__ic_menu_moreoverflow_holo_light);

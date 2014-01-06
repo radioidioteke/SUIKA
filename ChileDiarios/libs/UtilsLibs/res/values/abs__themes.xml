@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.AppCustomTheme" parent="Theme.Sherlock.Light">
+    <style name="Theme.AppCustomTheme" parent="Theme.Sherlock">
         <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
@@ -12,7 +12,7 @@
     </style>
     
     
-    <style name="Theme.AppCustomTheme.Drawer" parent="Theme.Sherlock.Light">
+    <style name="Theme.AppCustomTheme.Drawer" parent="Theme.Sherlock">
         <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
@@ -22,7 +22,7 @@
         <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
     </style>
 
-    <style name="Theme.AppCustomTheme.NoBack" parent="Theme.Sherlock.Light">
+    <style name="Theme.AppCustomTheme.NoBack" parent="Theme.Sherlock">
         <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
         <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
@@ -43,9 +43,9 @@
     </style>
 
     <style name="Theme.MyAppTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
-        <item name="android:background">#FFF</item>
+        <item name="android:background">#2F2F2F</item>
         <item name="android:height">62dip</item>
-        <item name="background">#FFF</item>
+        <item name="background">#2F2F2F</item>
         <item name="height">62dip</item>
         <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
         <item name="titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>

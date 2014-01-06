@@ -199,7 +199,7 @@ public class Main extends SherlockFragmentActivity implements AsyncResponse {
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setDisplayShowHomeEnabled(true);
 		getSupportActionBar().setDisplayShowTitleEnabled(true);
-		actbardrawertoggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.abs__action_bar_home_description, R.string.abs__action_bar_home_description) {
+		actbardrawertoggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.boton_menu_on, R.string.abs__action_bar_home_description, R.string.abs__action_bar_home_description) {
 			public void onDrawerClosed(View view) {
 				super.onDrawerClosed(view);
 			}

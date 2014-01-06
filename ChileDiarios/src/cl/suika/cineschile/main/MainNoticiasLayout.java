@@ -21,7 +21,7 @@ public class MainNoticiasLayout extends LinearLayout {
 	public MainNoticiasLayout(final Context context, List<MainNewObject> noticias) {
 		super(context);
 		this.setOrientation(LinearLayout.VERTICAL);
-		this.setPadding(0, 0, 0, 10);
+		this.setPadding(0, 0, 0, 50);
 
 		for (int i = 0; i < noticias.size(); i++) {
 			LayoutInflater iconsInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -78,9 +78,9 @@ public class MainNoticiasLayout extends LinearLayout {
 			LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, getResources().getDimensionPixelOffset(R.dimen.main_new_item_height));
 			this.addView(mView, lp);
 
-			View separador = new View(context);
-			separador.setBackgroundColor(Color.parseColor("#808080"));
-			this.addView(separador, new LayoutParams(LayoutParams.MATCH_PARENT, 1));
+//			View separador = new View(context);
+//			separador.setBackgroundColor(Color.parseColor("#808080"));
+//			this.addView(separador, new LayoutParams(LayoutParams.MATCH_PARENT, 1));
 		}
 
 	}
