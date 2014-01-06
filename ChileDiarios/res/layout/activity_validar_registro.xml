@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_textura"
+        android:gravity="center_horizontal"
+        android:isScrollContainer="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="50dp" >
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/validar_registro_texto"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+            
+            
+            <EditText
+                android:id="@+id/inputC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/textfile_background"
+                android:hint="@string/validar_registro_inputC"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:textSize="14sp" 
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/textfile_background"
+                android:hint="@string/validar_registro_input"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/boton_continuar"
+                android:clickable="true" />
+            
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="@string/validar_registro_reenviar"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

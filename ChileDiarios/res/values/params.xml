@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rest_name">ChileDiarios</string>
+ 
+    
+    <!-- PC HERMOSILLA -->  
+<!--     <string name="url_token">http://192.168.100.66/services/ci_ssl/get_token</string> -->
+<!--     <string name="url_registro">http://192.168.100.66/services/ci_ssl/register</string> -->
+<!--     <string name="url_validar">http://192.168.100.66/services/ci_ssl/valida</string> -->
+<!--     <string name="url_login">http://192.168.100.66/services/ci_ssl/login</string> -->
+<!--     <string name="url_update_user">http://192.168.100.66/services/ci_ssl/set_user</string> -->
+<!--     <string name="url_resend_token">http://192.168.100.66/services/ci_ssl/send_token</string> -->
+<!--     <string name="url_login_facebook">http://192.168.100.66/services/ci_ssl/facebook_in</string> -->
+    
+<!--     <string name="url_basic_info">http://192.168.100.66/services/ci_ssl/chilediarioapp/get_basic_info</string> -->
+<!--     <string name="url_get_noticia">http://192.168.100.66/services/ci_ssl/chilediarioapp/get_noticia</string> -->
+<!--     <string name="url_get_diario">http://192.168.100.66/services/ci_ssl/chilediarioapp/get_noticias_diario</string> -->
+    
+    <string name="parse_appId">3XpG2WIAFTWz5iCb0Wv4zSr37fvaC8d1rdpodgJF</string>
+    <string name="parse_clientKey">rzsbBgapLuLcPFcLLQ97xrHnLnOh7sRAjVqAhczY</string>
+    <string name="parse_channel">Desa</string>
+    
+
+    <!-- DESARROLLO --> 
+<!--     <string name="url_token">http://developer.suikadev.cl/services/ci_ssl/get_token</string> -->
+<!--     <string name="url_registro">http://developer.suikadev.cl/services/ci_ssl/register</string> -->
+<!--     <string name="url_validar">http://developer.suikadev.cl/services/ci_ssl/valida</string> -->
+<!--     <string name="url_login">http://developer.suikadev.cl/services/ci_ssl/login</string> -->
+<!--     <string name="url_update_user">http://developer.suikadev.cl/services/ci_ssl/set_user</string> -->
+<!--     <string name="url_resend_token">http://developer.suikadev.cl/services/ci_ssl/send_token</string> -->
+<!--     <string name="url_login_facebook">http://developer.suikadev.cl/services/ci_ssl/facebook_in</string> -->
+    
+<!--     <string name="url_basic_info">http://developer.suikadev.cl/services/ci_ssl/chilediarioapp/get_basic_info</string> -->
+<!--     <string name="url_get_noticia">http://developer.suikadev.cl/services/ci_ssl/chilediarioapp/get_noticia</string> -->
+<!--     <string name="url_get_diario">http://developer.suikadev.cl/services/ci_ssl/chilediarioapp/get_noticias_diario</string> -->
+ 	
+ 	
+<!--  	<string name="parse_appId">i1eYsnlT7ddjXVOX0p73Ieznbvcl2upfP8VD3sFY</string> -->
+<!--     <string name="parse_clientKey">fR86oSOYTYeeI0J7KCiqdpRkJV9j2ilLrMMRUJ3D</string> -->
+<!--     <string name="parse_channel">Prod</string> -->
+    
+    
+    <!-- PRODUCCION -->  
+    <string name="url_token">http://produccion.suika.cl/services/ci_ssl/get_token</string>
+    <string name="url_registro">http://produccion.suika.cl/services/ci_ssl/register</string>
+    <string name="url_validar">http://produccion.suika.cl/services/ci_ssl/valida</string>
+    <string name="url_login">http://produccion.suika.cl/services/ci_ssl/login</string>
+    <string name="url_update_user">http://produccion.suika.cl/services/ci_ssl/set_user</string>
+    <string name="url_resend_token">http://produccion.suika.cl/services/ci_ssl/send_token</string>
+    <string name="url_login_facebook">http://produccion.suika.cl/services/ci_ssl/facebook_in</string>
+    
+    <string name="url_basic_info">http://produccion.suika.cl/services/ci_ssl/chilediarioapp/get_basic_info</string>
+    <string name="url_get_noticia">http://produccion.suika.cl/services/ci_ssl/chilediarioapp/get_noticia</string>
+    <string name="url_get_diario">http://produccion.suika.cl/services/ci_ssl/chilediarioapp/get_noticias_diario</string>
+    <!--  
+    <string name="parse_appId">i1eYsnlT7ddjXVOX0p73Ieznbvcl2upfP8VD3sFY</string>
+    <string name="parse_clientKey">fR86oSOYTYeeI0J7KCiqdpRkJV9j2ilLrMMRUJ3D</string>
+    <string name="parse_channel">Prod</string>
+    -->
+    
+    <!-- VARIABLES DE TRAQUEO Y ADS -->
+  	<string name="ga_trackingId">UA-45740713-2</string>
+  	<bool name="ga_autoActivityTracking">true</bool>
+  	<bool name="ga_reportUncaughtExceptions">true</bool>
+ 
+ 
+    <string name="url_madServer">http://adserver.suika.cl/md.request.php</string>
+    <string name="ad_home">6d165ee143b4a573cdb75b44ff79191e</string>
+    <string name="ad_perfil">b8e03e8a1af2d9aabcd8ee3749e27be7</string>
+    <string name="ad_notifi">834e4faa01c677180be9bb8e909ba96d</string>
+
+</resources>

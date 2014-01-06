@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_new_item_height">200dp</dimen>
+    <dimen name="main_new_item_diario_ts">13sp</dimen>
+    <dimen name="main_new_item_titulo_ts">15sp</dimen>
+    <dimen name="main_new_item_bajada_ts">13sp</dimen>
+    
+    <dimen name="login_padding">40dp</dimen>
+    
+</resources>

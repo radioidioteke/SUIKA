@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/icon_delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activated_background_indicator"
+    android:gravity="center"
+    android:clickable="true"
+    android:padding="15dp" >
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@null"
+        android:src="@drawable/boton_basura" />
+
+</LinearLayout>

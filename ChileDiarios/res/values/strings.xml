@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chile Diarios</string>
+    <string name="menu_title">Menú</string>
+    <string name="dialog_download_loading">Cargando</string>
+    <string name="facebook_app_id">238909322942812</string>
+    <string name="connect_error">Error de conexión, reintente nuevamente</string>
+    <string name="connect_loading_content">Esperando por el contenido&#8230;</string>
+    <string name="connect_error_content">No se ha logrado cargar el contenido, reintente refrescando o revise su conexión a internet</string>
+    
+    
+    <string name="title_main">Estrenos</string>
+    
+    
+    <string name="login_user">Correo</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="login_init">Inicio Sesión</string>
+    <string name="login_reg">Si no estas registrado, registrate aquí</string>
+    <string name="login_forgot">¿Olvido su contraseña?</string>
+    
+    <string name="registro_correo">Correo electrónico</string>
+    <string name="registro_contrasena">Contraseña</string>
+    <string name="registro_c_contrasena">Confirmar Contraseña</string>
+    <string name="registro_terms">Terminos y Condiciones</string>
+    <string name="registro_errorPass">Las contraseñas no coinciden</string>
+    <string name="registro_errorPassLen">La contraseña debe tener al menos 5 caracteres</string>
+    <string name="registro_errorTerms">Debes aceptar los terminos y condiciones</string>
+    <string name="registro_errorMail">Debes ingresar un correo valido</string>
+    <string name="registro_resend">Si ya tienes un usuario pero no se encuentra validado, haz click aqui</string>
+    
+    <string name="validar_registro_texto">Ingrese en código que se encuentra en el correo enviado para activar su cuenta de usuario</string>
+    <string name="validar_registro_inputC">Correo</string>
+    <string name="validar_registro_input">Código</string>
+    <string name="validar_registro_reenviar">Reenviar Código</string>
+    <string name="validar_registro_okmessage">La cuenta se ha validado correctamente, ya iniciaste sesión</string>
+    <string name="validar_registro_errorCodigo">Debes ingresar un código</string>
+    
+    <string name="perfil_titulo">PERFIL DE USUARIO</string>
+    <string name="perfil_changePass">CAMBIAR CONTRASEÑA</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_apellido">Apellido</string>
+    <string name="perfil_fechaNac">Fecha de Nacimiento</string>
+    <string name="perfil_sex1">Hombre</string>
+    <string name="perfil_sex2">Mujer</string>
+    <string name="perfil_pais">País de Residencia</string>
+    
+    <string name="perfil_passCurrent">Contraseña Actual</string>
+    <string name="perfil_pass1">Cambiar Contraseña</string>
+    <string name="perfil_pass2">Verificar Contraseña</string>
+    
+    
+    <string name="perfil_country_prompt">Seleccione un País</string>
+    <string-array name="perfil_country_arrays">
+        <item>Chile</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Perú</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Venezuela</item>
+        <item>Uruguay</item>
+        <item>Bolivia</item>
+        <item>Paraguay</item>
+        <item>Otro País</item>
+    </string-array>
+    
+    <string name="perfil_formErr">Faltan campos por llenar</string>
+    <string name="perfil_passDiff">Las contraseñas no coinciden</string>
+    <string name="perfil_noPassAct">Debes ingresar tu contraseña actual</string>
+    <string name="perfil_shotPass">La contraseña debe tener al menos 5 caracteres</string>
+    <string name="perfil_okSave">Los campos se han guardado con exito</string>
+    
+    <string name="info_contacto">Envíanos tus comentarios:</string>
+    <string name="info_facebook">Visita nuestro fanpage:</string>
+    <string name="info_twitter">Visita nuestro Twitter:</string>
+    
+    
+    <!--  
+    <string name="showcasetitulo">Pincha aqui po shoro</string>
+    <string name="showcasedetalle">Abajala Abajala Abajala Abajalaaaaaaa!!! Taka tak tak atktataaaa</string>
+    -->
+    
+    <string name="vermas">Ver +</string>
+    <string name="notificaciones">NOTIFICACIONES</string>
+    <string name="notificaciones_empty">No hay notificiones en la lista</string>
+    
+    <string name="terminosycondicioneshmtl"> 
+        <![CDATA[ 
+   			<b>Chile Diarios Términos y Condiciones</b><br>
+			Este acuerdo fue actualizado el 12 de Noviembre, 2013<br><br>
+			
+			Porfavor lea los Términos y Condiciones cuidadosamente antes de utilizar  http://www.chilediarios.cl o la Aplicación Ubícalo operada por Pro Suika SPA.<br><br> 
+			
+			Este acuerdo esta sujeto legalmente a los términos y condiciones para el uso de la Aplicación Ubícalo y el sitio http://www.chilediarios.cl.<br>
+			Cualquier función nueva que aumente o mejore el Servicio actual, incluyendo el lanzamiento de nuevas herramientas y recursos, estará sujeto a las Condiciones del servicio. El uso continuado del Servicio después de tales cambios constituirá su consentimiento a dichos cambios.  Usted puede revisar la versión más actualizada de las Condiciones de Servicio en cualquier momento.<br><br>
+			
+			
+			<b>Propiedad Intelectual</b><br>
+			Esta Aplicación y su contenido original, temas y funcionalidad son propiedad de Pro Suika SPA y son protegidos por los derechos de autor internacionales, patente de marca, comercio secreto y otras propiedades intelectuales o leyes de derechos de propiedad.<br><br> 
+			
+			<b>Terminación</b><br>
+			Nosotros podríamos finalizar su acceso, tanto para la aplicación como para el sitio, sin ninguna causa o notificación, lo que podría resultar en la culminación y destrucción de toda la información asociada a usted. Todos los suministros de este Acuerdo que por su naturaleza deberían sobrevivir, sobrevivirán la terminación, incluyendo, sin limitaciones, provisiones de propiedad, garantía de renuncia, indemnización, y limitación de responsabilidad.<br><br> 
+			
+			<b>Links Para Otros Sitios y Aplicaciones</b><br>
+			Tanto nuestra aplicación como nuestro sitio pueden contener links de terceros que son propiedad ni controlados por Pro Suika SPA.<br>
+			Pro Suika SPA no tiene control alguno, ni asume ningún tipo de responsabilidad por, el contenido, políticas de privacidad, o la presencia de terceros servicios o contenido. Nosotros sugerimos fuertemente que usted lea los términos y condiciones y políticas de privacidad de todo tercer sitio o aplicación.<br><br>
+			
+			<b>Ley Gobernante</b><br>
+			Este Acuerdo (y cualquier futura regla, políticas o guías incorporadas por referencia) será gobernado y construido en acuerdo con las leyes de Santiago de Chile, sin dar efecto a cualquier principio de conflicto de leyes.<br><br>
+			
+			<b>Cambios en este Acuerdo</b><br>
+			Nos reservamos el derecho, a nuestra discreción, de modificar o reemplazar estos Términos y Condiciones a través de notificar la actualización en el Sitio o Aplicación. Su uso contínuo de la Aplicación o Sitio después de dichos cambios constituye su aceptación de los nuevos Términos y Condiciones.<br> 
+			Porfavor revise este Acuerdo periódicamente por cualquier cambio. Si usted no está de acuerdo con los Términos y Condiciones o cambios a éste, no continúe utilizando, ingresando o accediendo al Sitio o Aplicación, por ende discontinúe el uso de ambos inmediatamente.<br><br><br>
+			
+			<b>Contáctenos</b><br>
+			Cualquier duda o sugerencia, porfavor contáctese con nosotros a contacto@chilediarios.cl
+        ]]>
+    </string>
+    
+    
+    <string name="dummie_nombre_diario">La Tercera</string>
+    <string name="dummie_noticia_titulo">WhatsApp niega la compra de su aplicación por parte de google</string>
+    <string name="dummie_noticia_titulo2">Carrrrlooooo!! Juaaaaan!! Tan helao que estay Juaaan </string>
+    <string name="dummie_noticia_bajada">La empresa demintió este rumor que surgió a comienzos de esta semana</string>
+    <string name="dummie_noticia_pordate">Por lun.cl - 09/04/2013 13:39</string>
+    <string name="dummie_noticia_texto">MONTREAL.- La revista de videojuegos "Game Informer" reveló hoy su portada de mayo, anunciando de manera oficial el nuevo juego de la saga "Arkham" de Batman: "Arkham Origins", que llegará a tiendas el próximo 25 de octu- bre.\nTal como su nombre lo indica, "Origins" será una\nprecuela a los eventos de "Arkham Assylum" y "Arkham City", mostrando a un Batman más joven, que "encuentra a manos villanos por primera vez". Según la revista, el principal enemigo del superhéroe en este nuevo título será "Deathstroke", que bla ble bli blo blu\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et pharetra nisi. Aliquam vel nulla in ipsum ullamcorper imperdiet. Sed mattis ultricies urna eu pharetra. Sed eu ipsum ullamcorper sem vulputate imperdiet vitae a dui. Proin tempus est lectus, eget dignissim libero pharetra non. Phasellus sit amet dignissim neque. Duis eget neque et mauris tempus porta condimentum at elit.\nPhasellus id pellentesque quam, quis congue sem. Mauris consequat mattis elit, sed pellentesque erat tincidunt vel. Pellentesque ullamcorper suscipit metus, id laoreet dui luctus eu. Duis pellentesque pretium justo et varius. Sed sit amet eros rhoncus, laoreet velit in, ornare ipsum. Aliquam metus nisi, consectetur non posuere ac, porta ultricies purus. Aliquam et tristique arcu. Nunc in lacus sed justo aliquam fermentum nec eget erat. Cras dignissim eros et iaculis hendrerit.</string>
+    <string name="dummie_noticia_lista"><![CDATA[<font color=\'#EE0000\'>13:39</font>]]> Anuncian el nuevo juego de la exitosa saga Arkham de Batman: Origins</string>
+    
+    
+
+</resources>

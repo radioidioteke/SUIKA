@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_textura"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/masterScroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:isScrollContainer="false"  >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="@dimen/login_padding" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="170dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_cineschile" />
+
+
+            <com.facebook.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                facebook:confirm_logout="true"
+                facebook:fetch_user_info="true" />
+
+            <View
+                android:id="@+id/separatior" 
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#0000" />
+
+            <Button
+                android:id="@+id/suikaLoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/ingresar_suika"
+                android:padding="0dp" />
+
+            <LinearLayout
+                android:id="@+id/suikaLoginContenedor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/User"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textfile_background"
+                    android:textColor="#fff"
+                    android:hint="@string/login_user"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/Pass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textfile_background"
+                    android:hint="@string/login_pass"
+                    android:textColor="#fff"
+                    android:inputType="textPassword"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/inicioSesion"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/activated_background_indicator"
+                    android:padding="10dp"
+                    android:text="@string/login_init"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/forgotPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/login_forgot"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#1B1A1A"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="@string/login_reg"
+            android:textColor="@color/textview_pressed_color"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

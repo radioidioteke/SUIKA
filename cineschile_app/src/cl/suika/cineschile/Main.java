@@ -1,5 +1,6 @@
 package cl.suika.cineschile;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import android.content.Intent;
@@ -49,8 +50,8 @@ public class Main extends SherlockFragmentActivity implements AsyncResponse {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		MenuCreator.setupActionBarDrawer(this);
-		setContentView(R.layout.activity_main);
 		getSupportActionBar().hide();
+		setContentView(R.layout.activity_main);
 	}
 
 	@Override
@@ -63,7 +64,20 @@ public class Main extends SherlockFragmentActivity implements AsyncResponse {
 	@Override
 	public void processFinish(Object[] output) {
 		// TODO Auto-generated method stub
+		CineObj cine = new CineObj();
+		cine.setCine("CineMark");
+		cine.setId("1");
+		cine.setUbicacion("Portal Ñuñoa");
+		cine.setUrlImg("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/s160x160/417254_407650189250915_1164976855_a.jpg");
+		cine.setAdCine("Advice");
 		
+		List<CineObj> listacines = new ArrayList<CineObj>();
+		
+		listacines.add(cine);
+		
+		setLeftMenu(listacines);
+		
+		getSupportActionBar().show();
 	}
 	
 	
